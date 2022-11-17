@@ -1,0 +1,20 @@
+.home-banner{
+  height: 600px;
+  background: url(../../assets/vmssh-heart\ \(1\).JPEG) no-repeat center/cover;
+}
+.home-grad{
+  height: 600px;
+  background:rgba(0, 0, 0, 0.5);
+}
+.home-banner .heading {
+  font-size: calc(4rem + 1.5vw);
+  font-family: "Scheherazade New", serif;
+}
+@media screen and (max-width:768px) {
+   .home-banner .text{
+    text-align: center;
+   } 
+}
+.home-banner p {
+  max-width: 450px;
+}

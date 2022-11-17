@@ -1,0 +1,33 @@
+.card-text, .col-text{
+    text-align: justify;
+}
+.card{
+    max-width: 500px;
+}
+.home-kids{
+   max-height: 500px !important;
+   object-fit: cover !important;
+}
+.bg-grad{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(40, 111, 131, 0.73))
+}
+@media screen and (min-width: 768px) {
+.h2-text {
+    max-width: 700px;
+  }
+}
+.text-card{
+    background-color: #286f83;
+}
+
+@media screen and (min-width:992px) {
+    .text-card{
+       max-width: 450px;
+   } 
+}
+@media screen and (max-width:992px) {
+    .text-card{
+        position:relative !important;
+    }
+}

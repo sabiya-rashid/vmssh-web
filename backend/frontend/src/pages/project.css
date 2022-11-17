@@ -1,0 +1,22 @@
+body{
+    overflow-x: hidden;
+}
+.card-text, .col-text{
+    text-align: justify;
+}
+.card{
+    max-width: 500px;
+}
+.card-text, .col-text{
+    text-align: justify;
+}
+.card{
+    max-width: 500px;
+}
+
+@media screen and (max-width:992px) {
+    .project-card{
+        position: relative !important;
+    }
+}
+

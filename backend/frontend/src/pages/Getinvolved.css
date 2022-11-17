@@ -1,0 +1,48 @@
+.kids {
+  max-height: 400px !important;
+  object-fit: cover;
+}
+.text-card-2 {
+  background-color: #286f83;
+}
+/* @media screen and (max-width:992px) { */
+.funds {
+  height: 900px;
+}
+/* } */
+.funds .card-1 {
+  top: 5%;
+  left: 5%;
+  max-width: 300px;
+}
+.funds .card-2 {
+  max-width: 450px;
+  right: 5%;
+}
+.funds .card-3 {
+  top: 65%;
+  left: 2%;
+    max-width: 500px;
+}
+.funds .card-4 {
+  top: 60%;
+  left: 65%;
+  max-width: 250px;
+}
+.funds .card-5 {
+  left: 10%;
+}
+.funds .card-6 {
+  top: 5%;
+  right: -5%;
+  max-width: 220px;
+}
+.funds h1{
+  margin-bottom: 10rem;
+}
+
+@media screen and (max-width:1200px) {
+  .funds .card-5{
+    left: 18%;
+  }
+}

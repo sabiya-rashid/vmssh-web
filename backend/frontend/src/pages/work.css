@@ -1,0 +1,41 @@
+.logos{
+   width: 100px;
+   height: 80px;
+}
+.kid{
+    max-height: 500px !important;
+    object-fit: cover;
+}
+.text-card-3{
+    background-color: #286f83;
+    max-width: 450px;
+    z-index: 10;
+}
+.accordion-button::after {
+    color: #286f83;
+    /* font-family: "Font Awesome 5 Free";
+    content: "\2b" !important;
+    background: none; */
+}
+.accordion-button:not(.collapsed)::after{
+    color: #286f83;
+    /* font-family: 'Glyphicons Halflings';
+    background: none !important;
+    content: "\f068"; */
+}
+@media screen and (max-width:992px) {
+    .text-card-3{
+        position: relative !important;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .icons{
+        display: block !important;
+    }
+}
+@media screen and (max-width:992px) {
+    .text-card-3{
+        max-width: 100%;
+    }
+}
